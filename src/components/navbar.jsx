@@ -2,7 +2,7 @@ import React from "react";
 export const Navbar = () => {
   return (
     <div className="flex max-w-[100vw] px-10 md:px-40 items-center justify-between overflow-x-hidden">
-      <div className="flex">
+      <div className="flex" id="home">
         <img src="bkmlogo.png" className="w-max h-max" alt="Logo" />
       </div>
       <div className="flex gap-5 md:gap-[50px] items-center">
