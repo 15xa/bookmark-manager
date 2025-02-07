@@ -52,8 +52,10 @@ export const Navbar = () => {
           <div className="text-gray-400 font-medium text-xl hover:text-redish-401 cursor-pointer">
             FAQs
           </div>
-          <div className="bg-redish-401 rounded-md p-2 px-4 text-white hover:bg-white border-redish-401 hover:text-redish-401 border-2 font-semibold cursor-pointer">
-            Login
+          <div className="bg-redish-401 rounded-md p-2 px-4 text-white hover:bg-white border-redish-401 hover:text-redish-401 border-2 font-semibold cursor-pointer" onClick={() => {
+            window.location.href = 'https://webtopilot.pro';
+          }}>
+            Back to portfolio
           </div>
         </div>
       </div>
@@ -70,8 +72,10 @@ export const Navbar = () => {
           <div className="text-gray-400 p-2 font-medium text-xl hover:text-redish-401 cursor-pointer">
             FAQs
           </div>
-          <div className="bg-redish-401 rounded-md p-2 text-white hover:bg-white border-redish-401 hover:text-redish-401 border-2 font-semibold cursor-pointer">
-            Login
+          <div className="bg-redish-401 rounded-md p-2 text-white hover:bg-white border-redish-401 hover:text-redish-401 border-2 font-semibold cursor-pointer" onClick={() => {
+            window.location.href = 'https://webtopilot.pro';
+          }}>
+            Back to Portfolio
           </div>
         </div>
       )}
